@@ -12,34 +12,135 @@
 </head>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Oscar Pons Gallart</a>
+    <div id="top" class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Oscar Pons Gallart</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Formación</a></li>
+        <li><a href="#education">Education</a></li>
       </ul>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Aptitudes</a></li>
+        <li><a href="#experience">Experience</a></li>
       </ul>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Experience</a></li>
+        <li><a class='dropdown-trigger' data-target="projects_dropdown" href="#projects" >Projects</a></li>
+            <!-- Projects Dropdown Structure -->
+          <ul id='projects_dropdown' class='dropdown-content'>
+            <li><a href="#unity">Unity</a></li>
+            <li><a href="#opengl">OpenGL</a></li>
+            <li><a href="#other">Other</a></li>
+          </ul>
       </ul>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Projects</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
-      
-      
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Formación</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red" href="#top">
+      <i class="large material-icons">arrow_upward</i>
+    </a>
+  </div>
+
+  <!-- About -->
+  <div class="row"> </div>
+  <div class="container">
+    <div class="row valign-wrapper">
+      <div id="about" class="col l6 s12">
+        <img src="Media/foto.png" width="400px" height="300px">
+      </div>
+      <div class="col l6 s12">
+        <p>Since child I'm passionate about electronics, I started my journey at 6 when I got in my hands my very first console, a GameBoy Color, that was amazing. 
+          Years later, I decided to go a step further than playing and tried programming, and all started when I coded my very first program to calculate the area of a triangle with C++.
+          From that day to now I started all kind of projects, just for the joy of learning and programming, from a program to rename and order my music folder to using kalilinux to play with 
+          wifi. 
+        </br></br>
+          I decided to begin the computer engineering degree at UPC in Barcelona, but after two years I realized that my real desire was to program videogames and discovered the degree of 
+          videogame design and development, in UPC also, which now I'm currently in. 
+        </br></br>
+          All the experience and knowledge from both degrees made me learn a lot of languages such as C, C++, java, javascript, python, Assembly (MIPS and intel x86), matlab,
+          C#, SQL, HTML, GLSL and recently learning processing and lua. 
+        </br>And also made me to be keen on and learn 3D modeling and animating, photo edition, arduino, 3D printing, drones, pentesting and of course, videogames.
+        </br>
+          I also used libraries such as selenium, pandas, numpy, opencv, telegram bot API, AIMA, openGL, webGL, freetype, ImGui, openMP... and now focusing in tensor flow and django.
+        </br></br>
+          There are a lot of projects not made with the purpose to be publicated and other simply cannot be shown because of legal terms, but here you will find some of them.
+
+        </p>
+      </div>
+
+    </div>
+
+    <div id="icons">
+      <div class="row">
+        <h3>Languages</h3>
+      </div>
+      <div class="row">
+        <div class="col l12 s12">
+          <img src="Media/icons/lang/c.png"             width="100px" height="100px"  title="C"       alt="C">
+          <img src="Media/icons/lang/csharp.png"        width="100px" height="100px"  title="C#"       alt="C#">
+          <img src="Media/icons/lang/cpp.png"           width="100px" height="100px"  title="C++"       alt="C++">
+          <img src="Media/icons/lang/python.png"        width="100px" height="100px"  title="Python"       alt="Python">
+          <img src="Media/icons/lang/sql.png"           width="100px" height="100px"  title="SQL"       alt="SQL">
+          <img src="Media/icons/lang/java.png"          width="100px" height="100px"  title="Java"       alt="Java">
+          <img src="Media/icons/lang/javascript.png"    width="100px" height="100px"  title="Javascript"       alt="Javascript">
+          <img src="Media/icons/lang/html.png"          width="100px" height="100px"  title="HTML"       alt="HTML">
+          <img src="Media/icons/lang/lua.png"           width="100px" height="100px"  title="Lua"       alt="Lua">
+          <img src="Media/icons/lang/processing.png"    width="100px" height="100px"  title="Processing"       alt="Processing">
+          <img src="Media/icons/lang/matlab.png"        width="100px" height="100px"  title="Matlab"       alt="Matlab">
+        </div>
+      </div>
+      
+      <div class="row">
+        <h3>Libraries</h3>
+      </div>
+      <div class="row">
+        <div class="col l12 s12">
+          <img src="Media/icons/lib/imgui.png"             width="100px" height="100px"    title="Dear Imgui"        alt="Dear Imgui">
+          <img src="Media/icons/lib/selenium.png"             width="100px" height="100px" title="Selenium"        alt="Selenium">
+          <img src="Media/icons/lang/android.png"       width="100px" height="100px"  title="Android"       alt="Android">
+          <img src="Media/icons/lang/arduino.png"       width="100px" height="100px"  title="Arduino"       alt="Arduino">
+          <img src="Media/icons/lib/opengl.png"             width="100px" height="100px"   title="OpenGL"        alt="OpenGL">
+          <img src="Media/icons/lib/webgl.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/lib/sdl.png"             width="100px" height="100px"    title="SDL"        alt="SDL">
+          <img src="Media/icons/lib/opencv.png"             width="100px" height="100px"   title="OpenCV"        alt="OpenCV">
+          <img src="Media/icons/lib/pandas.png"             width="100px" height="100px"   title="Pandas"        alt="Pandas">
+          <img src="Media/icons/lib/numpy.png"             width="100px" height="100px"    title="Numpy"        alt="Numpy">
+        </div>
+      </div>
+
+      <div class="row">
+        <h3>Software</h3>
+      </div>
+      <div class="row">
+        <div class="col l12 s12">
+          <img src="Media/icons/software/ps.png"             width="100px" height="100px"   title="Photoshop"        alt="Photoshop">
+          <img src="Media/icons/software/ai.png"             width="100px" height="100px"    title="Illustrator"        alt="Illustrator">
+          <img src="Media/icons/software/maya.png"             width="100px" height="100px"    title="Maya"        alt="Maya">
+          <img src="Media/icons/software/zbrush.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/software/github.png"             width="100px" height="100px"   title="Github"        alt="Github">
+          <img src="Media/icons/software/vs.png"             width="100px" height="100px"    title="Visual Studio"        alt="Visual Studio">
+          <img src="Media/icons/software/3ds.png"             width="100px" height="100px"   title="OpenGL"        alt="OpenGL">
+          <img src="Media/icons/software/blender.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/software/pycharm.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/software/eclipse.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/software/android.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/software/unreal.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/software/unity.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/software/cura.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+          <img src="Media/icons/software/vmware.png"             width="100px" height="100px"    title="WebGL"        alt="WebGL">
+        </div>
+      </div>
+
+          
+    </div>
+
+  </div>
+
   <!-- Projects -->
-  
+
   <div class="section no-pad-bot" id="index-banner">
       <div class="container">
-          <h2 class="header orange-text">Projects</h2>
+          <h2 id="projects" class="header orange-text">Projects</h2>
           <h3 class="header  orange-text">Unity</h3>
 
 
@@ -104,7 +205,7 @@
           </div>
 
           <!-- OPENGL------------------------------------- -->
-          <h3 class="header  orange-text">OpenGL</h3>
+          <h3 id="opengl" class="header  orange-text">OpenGL</h3>
 
           <!-- witcher -->
           <div class="row">
@@ -193,67 +294,71 @@
       </div>
   </div>
 
+  
+
   <!-- Experience -->
   <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
-          <h2 class="header orange-text">Experiencia</h2>
-          <div class="row">
-              <h5 class="header col s12 ">Play Code Academy, Barcelona</h5>
-              <h7 class="header col s12 "><b>Docente</b> - Clases grupales de scratch, drones, impresión 3D, tinkercad y lego WeDo</h7>
-              <h7 class="header col s12 light">Enero 2020 - Marzo 2020</h7>
-          </div>
-          <div class="row">
-              <h5 class="header col s12 ">La Bocateria, Sant Sadurní d'Anoia</h5>
-              <h7 class="header col s12 "><b>Camarero</b> - Ayudante de cocina, camarero, repartidor</h7>
-              <h7 class="header col s12 light">Junio 2018 - Septiembre 2018</h7>
-          </div>
-          <div class="row">
-              <h5 class="header col s12 ">Decathlon, CAR Barcelona (Martorell)</h5>
-              <h7 class="header col s12 "><b>Mozo almacén</b> - Control de stock, mozo de línea, picking</h7>
-              <h7 class="header col s12 light">Junio 2018 - Septiembre 2018</h7>
-          </div>
-          <div class="row">
-              <h5 class="header col s12 ">Electrònica Mirambell, Sant Sadurní d'Anoia</h5>
-              <h7 class="header col s12 "><b>Dependiente</b> - Reponedor de stock, instalaciones de electrodomésticos, dependiente en caja, atención al cliente</h7>
-              <h7 class="header col s12 light">Noviembre 2016 - Enero 2018</h7>
-          </div>
-          <div class="row">
-              <h5 class="header col s12 ">Casa Ametller, Vilafranca del Penedès</h5>
-              <h7 class="header col s12 "><b>Relaciones públicas</b> - Captación de clientes</h7>
-              <h7 class="header col s12 light">Julio 2015 - Agosto 2015</h7>
-          </div>
+    <div class="container">
+      <h2 id="experience" class="header left orange-text">Experience</h2>
+      <div class="row">
+        <h5 class="header col s12 ">Play Code Academy, Barcelona</h5>
+        <h7 class="header col s12 "><b>Teacher</b> - Group lessons of scratch, drones, 3D printing, tinkercad and Lego WeDo</h7>
+        <h7 class="header col s12 light">January 2020 - March 2020</h7>
       </div>
+      <div class="row">
+        <h5 class="header col s12 ">La Bocateria, Sant Sadurní d'Anoia</h5>
+        <h7 class="header col s12 "><b>Waiter</b> - Kitchen helper, waiter, deliveries</h7>
+        <h7 class="header col s12 light">June 2018 - September 2018</h7>
+      </div>
+      <div class="row">
+        <h5 class="header col s12 ">Decathlon, CAR Barcelona (Martorell)</h5>
+        <h7 class="header col s12 "><b>Warehouse</b> - Stock control, main line support, picking</h7>
+        <h7 class="header col s12 light">September 2017 - Current</h7>
+      </div>
+      <div class="row">
+        <h5 class="header col s12 ">Electrònica Mirambell, Sant Sadurní d'Anoia</h5>
+        <h7 class="header col s12 "><b>Shop assistant</b> - Stock control, home installations, customer service</h7>
+        <h7 class="header col s12 light">November 2016 - January 2018</h7>
+      </div>
+      <div class="row">
+        <h5 class="header col s12 ">Casa Ametller, Vilafranca del Penedès</h5>
+        <h7 class="header col s12 "><b>Public relationships</b> - Customer acquisition</h7>
+        <h7 class="header col s12 light">July 2015 - August 2015</h7>
+      </div>
+    </div>
   </div>
 
   <!-- Education -->
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <h2 class="header orange-text">Formación</h2>
+      <h2 id="education" class="header left orange-text">Education</h2>
       
       <div class="row">
         <h5 class="header col s12 ">Centre Imatge i Tecnologia multimèdia (UPC - CITM)</h5>
-        <h7 class="header col s12 ">Diseño y desarrollo de videojuegos (Docencia en inglés)</h7>
-        <h7 class="header col s12 light">Septiembre 2017 - Actualmente</h7>
+        <h7 class="header col s12 ">Game development and design (English degree)</h7>
+        <h7 class="header col s12 light">September 2017 - Currently</h7>
       </div>
       <div class="row">
         <h5 class="header col s12 ">Facultat Informàtica de Barcelona (UPC - FIB)</h5>
-        <h7 class="header col s12 ">Ingeniería informática (114 ECTS superados)</h7>
-        <h7 class="header col s12 light">Septiembre 2014 - Junio 2016</h7>
+        <h7 class="header col s12 ">Computer engineering (114 ECTS passed)</h7>
+        <h7 class="header col s12 light">September 2014 - June 2016</h7>
       </div>
       <div class="row">
         <h5 class="header col s12 ">Col·legi Sant Josep, Sant Sadurní d'Anoia</h5>
-        <h7 class="header col s12 ">Bachillerato</h7>
-        <h7 class="header col s12 light">Septiembre 2012 - Junio 2014</h7>
+        <h7 class="header col s12 ">Bachelor's degree</h7>
+        <h7 class="header col s12 light">September 2012 - June 2014</h7>
       </div>
       <div class="row">
+        <h2 class="header left orange-text">Languages</h2>
         <h5 class="header col s12 ">First Certificate in English (FCE - B2)</h5>
-        <h5 class="header col s12 ">Español nativo</h5>
-        <h5 class="header col s12 ">Catalan nativo</h5>
+        <h5 class="header col s12 ">Native Spanish</h5>
+        <h5 class="header col s12 ">Native Catalan</h5>
       </div>
       <br><br>
 
     </div>
   </div>
+  
 
 
   <footer class="page-footer orange">
